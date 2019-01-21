@@ -22,13 +22,6 @@ h3{
 
 }
 
-h4{
-  margin-top: 3px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: oblique;
-  font-weight: lighter;
-}
-
 p{
   text-align: justify;
   font-size: 18px;
@@ -49,6 +42,9 @@ header{
 }
 
 main{
+  background-image: url(../assets/bglarge.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 4%
 }
 
@@ -57,13 +53,20 @@ main{
   height: 30%;
 }
 
+.imgtext{
+  margin-top: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: lighter;
+}
+
 footer{
   display: flex;
   justify-content: center;
   align-items: center;
   bottom: 0;
   height: 80px;
-  background-color: rgb(0, 211, 235)
+  background-color: rgba(161, 144, 255, 0.705)
 }
 
 @media (min-width: 640px) {
