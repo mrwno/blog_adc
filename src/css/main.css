@@ -53,6 +53,12 @@ main{
   height: 30%;
 }
 
+.imgcontent2{
+  margin-top: 5%;
+  width: 100%;
+  height: 30%;
+}
+
 .imgtext{
   margin-top: 3px;
   font-family: Arial, Helvetica, sans-serif;
@@ -101,4 +107,7 @@ footer{
     height: 55vh;
   }
 
+  .imgcontent2{
+    width: 70%;
+  }
 }
