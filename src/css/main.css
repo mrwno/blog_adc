@@ -42,7 +42,7 @@ header{
 }
 
 main{
-  background-image: url(../assets/bglarge.svg);
+  background-image: url(../assets/Sans\ titre\ -\ 4.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 4%
@@ -85,6 +85,10 @@ footer{
   header{
     margin-top: 0%;
     flex-direction: column-reverse;
+  }
+  
+  main{
+    background-image: url(../assets/bglarge.svg);
   }
 
   .header__logo{
